@@ -29,3 +29,9 @@ password - 123456
 5. phpMyAdmin will import the data from the backup file.
 *****
 First add the new categories when u need to add a new book. U will not need categories when already have its categories types
+*****
+fb login configuring
+1. Open config/services.php
+2. In Facebook service, change the localhost port no of redirect link with your port number
+	Current link is "http://localhost:60000/browsing/public/callback"
+	Change localhost:60000 to localhost:your_port_no
